@@ -145,7 +145,7 @@ a:any-link {
   color: white;
 }
 
-@media (max-width: 850px;) {
+@media (max-width: 850px) {
   h1 {
     font-size: 32px;
     line-height: 1.4;
@@ -154,4 +154,23 @@ a:any-link {
   h2 {
     font-size: 24px;
   }
+
+  .primary-link {
+  font-size: 14px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
 }
+#contact {
+  display: block;
+  font-size: 24px;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+  }
